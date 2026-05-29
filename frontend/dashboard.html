@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parent Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+   <div id="incomeSection">
+
+    <h2>Add Monthly Income</h2>
+
+    <input
+        type="number"
+        id="incomeInput"
+        placeholder="Monthly Income"
+    >
+    
+   </div>
+
+   <h2>Add Monthly Spending</h2>
+
+   <input type="number" id="spendingInput" placeholder="Monthly Spending">
+
+   <h3>Add Monthly Saving</h3>
+
+   <input type="number" id="savingInput" placeholder="Monthly Saving">
+
+   <button onclick="saveFinanceData()">
+     Save Financial Data 
+    </button>
+
+    <hr>
+
+    <p>Total Income: $<span id="totalIncome">0</span></p>
+
+    <p>Total Spending: $<span id="totalSpending">0</span></p>
+
+    <p>Total Savings: $<span id="totalSavings">0</span></p>
+
+    <hr>
+
+    <a href="transactions.html">
+        <button>Transactions</button>
+    </a>
+
+    <a href="budget.html">
+        <button>Budget Planner</button>
+    </a>
+
+    <a href="goals.html">
+        <button>Savings Goals</button>
+    </a>
+
+    <a href="family.html">
+        <button>Manage Family</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

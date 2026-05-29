@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Savings Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Savings Goals</h1>
+
+    <input
+        type="text"
+        id="goalName"
+        placeholder="Goal Name"
+    >
+
+    <input
+        type="number"
+        id="goalAmount"
+        placeholder="Target Amount"
+    >
+
+    <button onclick="saveGoal()">
+        Create Goal
+    </button>
+
+    <hr>
+
+    <h2>Current Goal</h2>
+
+    <p id="goalDisplay">
+        No goal created yet.
+    </p>
+
+    <a href="dashboard.html">
+        <button>
+            Back to Dashboard
+        </button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

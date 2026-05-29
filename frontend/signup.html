@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Create Account</h1>
+
+    <input type="name" placeholder="Full Name">
+
+    <input type="email" placeholder="Email">
+
+    <input type="password" placeholder="Password">
+
+    <select id="userType">
+
+        <option value="adult">Adult</option>
+
+        <option value="child">Child</option>
+
+    </select>
+
+    <div id="parentSection" style="display:none;">
+
+        <input
+            type="email"
+            placeholder="Parent Email"
+        >
+
+    </div>
+
+    <button onclick="saveUserType()">
+        Create Account
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
